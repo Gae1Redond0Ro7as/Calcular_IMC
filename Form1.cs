@@ -35,7 +35,7 @@ namespace Calcular_IMC
                 txtZancada.Focus();
                 return;
             }
-            if (string.IsNullOrWhiteSpace (txtPasos.Text))
+            if (string.IsNullOrWhiteSpace(txtPasos.Text))
             {
                 MessageBox.Show("Porfavor ingrese su número de pasos para continuar", "Error");
                 txtPasos.Focus();
@@ -63,10 +63,10 @@ namespace Calcular_IMC
             //valida que solo pueden escribirse 4 digitos solamente
             if (txtEstatura.Text.Length >= 4 && e.KeyChar != '\b')
             {
-                e.Handled= true;
+                e.Handled = true;
             }
-           //valida para que no pueda haber más de un punto decimal
-            if(e.KeyChar == '.' && txtEstatura.Text.Contains("."))
+            //valida para que no pueda haber más de un punto decimal
+            if (e.KeyChar == '.' && txtEstatura.Text.Contains("."))
             {
                 e.Handled = true;
             }

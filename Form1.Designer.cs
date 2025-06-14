@@ -138,7 +138,7 @@
             label1.Name = "label1";
             label1.Size = new Size(98, 20);
             label1.TabIndex = 9;
-            label1.Text = "Ejemplo: 1,70";
+            label1.Text = "Ejemplo: 1.70";
             // 
             // label2
             // 
@@ -156,7 +156,7 @@
             label3.Name = "label3";
             label3.Size = new Size(98, 20);
             label3.TabIndex = 11;
-            label3.Text = "Ejemplo: 0,90";
+            label3.Text = "Ejemplo: 0.90";
             // 
             // label4
             // 
